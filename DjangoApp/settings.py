@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^kbw3*6!*2fj^2h^xr@ljo0nz9ai4g0-&dgt&m3@o#yxai7&@!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.azurewebsites']
+ALLOWED_HOSTS = ['https://diabetescheck.azurewebsites.net/']
 
 
 # Application definition
