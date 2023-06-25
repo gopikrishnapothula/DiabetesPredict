@@ -3,6 +3,6 @@ version: '3.8'
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:5500
+    command: python manage.py runserver 0.0.0.0:80
     ports:
-      - 5500:5500
+      - 80:80
